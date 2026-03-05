@@ -599,6 +599,20 @@ img {
     transition: var(--transition);
 }
 
+.feature-icon.logo-icon-box {
+    width: 56px;
+    height: 56px;
+    background: transparent;
+    padding: 0;
+    overflow: hidden;
+}
+
+.feature-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .feature-card:hover .feature-icon {
     background: var(--gradient-2);
     color: var(--white);
@@ -1410,9 +1424,25 @@ img {
         padding: 70px 0;
     }
 
+    .nav-container {
+        height: 70px;
+    }
+
+    .logo-img {
+        height: 50px;
+    }
+
+    html {
+        scroll-padding-top: 80px;
+    }
+
+    .hero {
+        padding-top: 70px;
+    }
+
     .nav-links {
         position: fixed;
-        top: 160px;
+        top: 70px;
         left: 0;
         right: 0;
         background: var(--white);
