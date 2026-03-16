@@ -177,7 +177,7 @@ img {
 
 .navbar.scrolled {
     box-shadow: var(--shadow-md);
-    background: rgba(255,255,255,0.95);
+    background: #000000;
 }
 
 .nav-container {
