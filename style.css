@@ -602,7 +602,7 @@ img {
 .feature-icon.logo-icon-box {
     width: 56px;
     height: 56px;
-    background: transparent;
+    background: #1E1E1E;
     padding: 0;
     overflow: hidden;
 }
